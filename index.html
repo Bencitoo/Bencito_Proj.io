@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="main-component">
+        <div class="mouseCursor">
+            <svg class='rotate' width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15Z" fill="white"/>
+            <path d="M25.75 31.5625V30.75H30.4713L24.25 24.0103L24.7787 23.4375L31 30.1772V25.0625H31.75V31.5625H25.75Z" fill="white"/>
+            </svg>
+            <div class="plus">
+                <div class="line-x"></div>
+                <div class="line-y"></div>
+            </div>
+        </div>
+
+        <div class="logo">
+            <img src="./logo.png" alt="">
+        </div>
+        <div class="main-intro">
+            <h1> 
+                FINAL PROJECT PORTFOLIO CPE232 - MANAGING ENTERPRISE SERVERS
+            </h1>
+        </div>
+        <div class="section-1 d-flex align-items-center justify-content-center">
+            <div class="github">
+                <a href="https://github.com/Bencitoo?tab=repositories">
+                    <ion-icon name="logo-github"></ion-icon>
+                    GITHUB ACCOUNT
+                </a>
+            </div>
+            <div class="bgClr">
+                <img src="./tumblr.gif" alt="">
+                <div class="social-links">
+                    <div class="fb">
+                        <a href="https://www.facebook.com/Jayelss15">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="ig">
+                        <a href="https://www.instagram.com/b3ncii/">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="prof">
+                    <h5> Prof: Dr. Jonathan Taylar </h5>
+                </div>
+                <div class="section">
+                    <h5> Section: CPE31S24 </h5>
+                </div>
+            </div>
+            <h3 class="tp-itr"> Sonny Jay B. Bencito </h3>
+            <div class="introPtr">
+                <img src="./profile.jpg" alt="">
+            </div>
+            <h3 class="bt-itr"> BS Computer Engineer </h3>
+
+            <div class="hobbies-tables">
+                <div class="t-h">
+                    <p> Playing BasketBall </p>
+                    <ion-icon name="basketball-outline"></ion-icon>
+                </div>
+                <div class="t-h">
+                    <p> Online Games </p>
+                    <ion-icon name="game-controller-outline"></ion-icon>
+                </div>
+                <div class="t-h">
+                    <p> Watching Movies </p>
+                    <ion-icon name="telescope-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <div class="prelim-hoa-section st-1">
+            <div class="grid-containers">
+                <div class="item-x">
+                    <a href="prelims/p1.pdf"  download="Creating Virtual Machines">
+                        <div class="num">
+                            <h6> 1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Activity 1 - Creating Virtual Machines </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="prelims/p2.pdf"  download="Authentication and GIT Setup">
+                        <div class="num">
+                            <h6> 2.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> SSH Key-Based Authentication and GIT Setup </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="prelims/p3.pdf"  download="Install SSH server on CentOS or RHEL 8">
+                        <div class="num">
+                            <h6> 3.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Install SSH server on CentOS or RHEL 8 </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="prelims/p4.pdf"  download="Ansible Basics">
+                        <div class="num">
+                            <h6> 4.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Ansible Basics </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="prelims/p5.pdf"  download="Implement Ansible roles in playbooks">
+                        <div class="num">
+                            <h6> 5.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Implement Ansible roles in playbooks </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="https://github.com/Bencitoo/Bencito_PrelimExam" >
+                        <div class="num">
+                            <h6> Github Prelim </h6>
+                        </div>
+                        <div class="text">
+                            <h4> PRELIM </h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="midterm-hoa-section st-1">
+            <div class="grid-containers">
+                <div class="item-x">
+                    <a href="midterms/m1.pdf"  download="Targeting Specific Nodes">
+                        <div class="num">
+                            <h6> 6.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Targeting Specific Nodes </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="midterms/m2.pdf"  download="Managing Files and Creating Roles in Ansible">
+                        <div class="num">
+                            <h6> 7.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Managing Files and Creating Roles in Ansible </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="midterms/m3.pdf"  download="Install, Configure, and Manage Enterprise Availability Monitoring via Ansible">
+                        <div class="num">
+                            <h6> 8.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Install, Configure, and Manage Enterprise Availability Monitoring via Ansible </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="midterms/m4.pdf"  download="Install, Configure and Manage Enterprise Performance Monitoring via Ansible">
+                        <div class="num">
+                            <h6> 9.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Install, Configure and Manage Enterprise Performance Monitoring via Ansible </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="midterms/m5.pdf"  download="Install, Configure and Manage Enterprise Log Monitoring via Ansible">
+                        <div class="num">
+                            <h6> 10.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Install, Configure and Manage Enterprise Log Monitoring via Ansible </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="https://github.com/Bencitoo/CPE_MIDEXAM_Bencito" >
+                        <div class="num">
+                            <h6> Github Midterm </h6>
+                        </div>
+                        <div class="text">
+                            <h4> MIDTERM </h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="finals-hoa-section st-1">
+            <div class="grid-containers">
+                <div class="item-x">
+                    <a href="finals/f1.pdf"  download="Containerization">
+                        <div class="num">
+                            <h6> 11.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Containerization </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="finals/f2.pdf"  download="Build a Sample Web App in a Docker Container">
+                        <div class="num">
+                            <h6> 12.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> Build a Sample Web App in a Docker Container </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="finals/f3.pdf"  download="OpenStack Prerequisite Installation">
+                        <div class="num">
+                            <h6> 13.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> OpenStack Prerequisite Installation </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="finals/f4.pdf"  download="OpenStack Installation (Keystone, Glance, Nova)">
+                        <div class="num">
+                            <h6> 14.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> OpenStack Installation (Keystone, Glance, Nova) </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="finals/f5.pdf"  download="OpenStack Installation (Neutron, Horizon, Cinder)">
+                        <div class="num">
+                            <h6> 15.1 </h6>
+                        </div>
+                        <div class="text">
+                            <h4> OpenStack Installation (Neutron, Horizon, Cinder) </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-x">
+                    <a href="https://github.com/Bencitoo/Final_Exam_Bencito" >
+                        <div class="num">
+                            <h6> Github Final </h6>
+                        </div>
+                        <div class="text">
+                            <h4> FINAL </h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-ending">
+            <h4>
+                REFLECTION AND LEARNINGS 
+            </h4>
+            <p>
+                After taking the CPE232- Managing Enterprise Servers. I learn a lot of things about using virtual machines and Linux OS. In my case, it is my first time using a virtual machine, and in Linux on my first activity, it is easy to create a directory inside of the Linux OS. Overall, you need to learn by yourself to memorize those commands and find a solution to errors that you encountered. I give a big thank you to our professor, He teaches us how to use the Linux and VM machine. I am looking forward to the second semester and I'm happy because I'm on the right elective track.
+            </p>
+        </div>
+    </div>
+    <script src="mouse.js"></script>
+    <script>
+        
+        // gsap.quick
+
+    </script>
+</body>
+</html>
